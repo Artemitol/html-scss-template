@@ -5,3 +5,25 @@
         }
     }
 }
+
+.hidden {
+    @include hiden;
+}
+
+.hidden-desktop {
+    @include desktop {
+        @include hiden;
+    }
+}
+
+.hidden-tablet {
+    @include tablet {
+        @include hiden;
+    }
+}
+
+.hidden-mobile {
+    @include mobile {
+        @include hiden;
+    }
+}
