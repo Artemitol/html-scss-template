@@ -24,3 +24,11 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+@function px-to-rem($value) {
+    $result: calc($value / $font-size);
+
+    @return #{$result}rem;
+}
+
+// TODO: add font mixins
