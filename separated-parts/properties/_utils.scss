@@ -27,3 +27,11 @@
         @include hiden;
     }
 }
+
+.site-wrapper { 
+    width: 100%;
+}
+
+.site-content {
+    max-width: calc(#{$desktop-min} - var(--site-padding-x) * 2);
+}

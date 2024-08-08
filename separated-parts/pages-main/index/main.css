@@ -176,6 +176,14 @@ ul, ol {
   }
 }
 
+.site-wrapper {
+  width: 100%;
+}
+
+.site-content {
+  max-width: calc(1280 - var(--site-padding-x) * 2);
+}
+
 html {
   font-size: 16px;
 }/*# sourceMappingURL=main.css.map */
